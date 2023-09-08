@@ -67,9 +67,25 @@ header{
     padding: 20px 6px;
 }
 .logo{
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-weight: 600;
     color: var(--main-color);
+    margin-left: 40px;
+    animation: animate 5s linear infinite;
+}
+@keyframes animate{
+    0%,18%,20%,50.1%,60%,65.1%,80%,90.1%,92%{
+        color: var(--main-color);
+        text-shadow: none;
+    }
+    18.1%,20.1%,30%,50%,60.1%,65%,80.1%,90%,92.1%,100%{
+        color: #03bcf4;
+        text-shadow: 0 0 10px #03bcf4,
+        0 0 20px #79939b,
+        0 0 40px #4a7885,
+        0 0 80px #4c8697,
+        0 0 160px #3e8195,
+    }
 }
 .navbar{
     display: flex;
