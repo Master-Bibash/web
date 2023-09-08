@@ -70,7 +70,7 @@ header{
     font-size: 1.3rem;
     font-weight: 600;
     color: var(--main-color);
-    margin-left: 40px;
+    margin-left: 25px;
     animation: animate 5s linear infinite;
 }
 @keyframes animate{
